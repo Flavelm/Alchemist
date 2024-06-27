@@ -1,0 +1,9 @@
+name: Alchemist
+version: '${project.version}'
+main: net.tixan.alchemist.Alchemist
+api-version: '1.20'
+softdepend:
+  - Vault
+commands:
+  alchemist:
+    permission: alchemist.open
